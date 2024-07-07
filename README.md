@@ -12,8 +12,8 @@ The main interface looks like:
 
 and the devices:
 <div>
-  <img src="Screenshots_and_Pictures/device_broker_parser.bmp" alt="Parser." width="500" />
-  <img src="Screenshot/device_client.png" alt="Client." width="500" />
+  <img src="Screenshots_and_Pictures/device_broker_parser.jpg" alt="Parser." width="200" />
+  <img src="Screenshots_and_Pictures/integration_v01.jpg" alt="Client." width="200" />
 </div>
 
 
@@ -222,7 +222,7 @@ crontab -e
 
 ### Test and Deploy
 ## First integration
-![Integration](Screenshots_and_Pictures/integration_V01.bmp)
+![Integration](Screenshots_and_Pictures/integration_V01.jpg)
 
 ## Roadmap
 This is the expected roadmap for this project:
