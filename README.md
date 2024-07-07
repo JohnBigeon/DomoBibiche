@@ -60,7 +60,6 @@ The comparison between boards made by Andreas Spiess can be found here [https://
 Using micropython and the associated espnow package seems to draw a lot of current (oscilloscope measurement in progress). With an esp32 and a TP4056 connected to the board, even with capacitors to reduce the peak, the esp32 board never achieved the connection and lead to an infinite loop of reboot sequence.
 With direct integration of the battery system at the board level, this behaviour is no longer observed.
 
-Finally, an esp32 with 'onboard' integration of the battery has been selected to avoid integration of a charger (TP4056 for example).
 
 ### Power consumption
 To reduce the power consumption of this project, an e-ink display has been selected. The cpu frequency of the microcontroller has been reduced via the micropython command:
