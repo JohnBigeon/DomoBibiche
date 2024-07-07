@@ -7,7 +7,7 @@ The philosophy used here is similar to this great project here [https://github.c
 ## Visuals
 The main interface looks like:
 <div>
-  <img src="Screenshots_and_Pictures/influxdb_screenshot.png" alt="InfluxDB." width="500" />
+  <img src="Screenshots_and_Pictures/influxdb_screenshot.png" alt="InfluxDB." width="800" />
 </div>
 
 and the devices:
