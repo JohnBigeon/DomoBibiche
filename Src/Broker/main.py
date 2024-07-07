@@ -7,7 +7,7 @@ Created on Sun Jan 22 13:13:42 2023
 
 """
 ###############################################
-##Title             : client_main.py
+##Title             : broker_main.py
 ##Description       : Main script for Domotik project
 ##Author            : John Bigeon   @ Github
 ##Date              : 20230730
