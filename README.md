@@ -1,4 +1,4 @@
-# Domotik, Micropython and InfluxDB
+# Domotic, Micropython and InfluxDB
 
 ## Concept
 A serie of multiple microcontrollers (Clients) are communicating through ESPNow technology to a main microcontroller (Broker) developed with Micropython. The broker is then agglomerating all informations, parse the data, and transfer them to a Raspberry Pi (RPI) via a simple serial communication. This RPI is submitting informations to a database (InfluxDB) and display latest received message on a display (e-ink).
@@ -216,7 +216,7 @@ To execute the python script on RPI at every startup, update the crontab as:
 
 ```
 crontab -e
-@reboot python /home/bibicheski/BibicheCorp/intellectron_main.py
+@reboot python /home/Me/SubMe/intellectron_main.py
 ```
 
 
