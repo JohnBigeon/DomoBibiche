@@ -34,7 +34,7 @@ import json
 import uos
 import os
 import re
-import BME280
+import bme280_float as bme280
 import BHL1750
 import json
 
@@ -43,13 +43,13 @@ import json
 ###############################################          
 class env_sensor:
     def __init__(self):
-        self.i2c = SoftI2C(scl=Pin(26), sda=Pin(25), freq=10000)
-        self.bme = BME280.BME280(i2c=self.i2c, address=118)
+        self.i2c = I2C(0, scl=Pin(26), sda=Pin(25))
+        self.bme = bme280.BME280(i2c=self.i2c)#, address=118)
 
     def read(self):
-        temp = float(self.bme.temperature)
-        hum = float(self.bme.humidity)
-        pres = float(self.bme.pressure)
+        temp = float(self.bme.read_compensated_data()[0])
+        hum = float(self.bme.read_compensated_data()[2])
+        pres = float(self.bme.read_compensated_data()[1])
         return {'val_temp': temp, 'val_hum': hum, 'val_pres' : pres}
     
 
